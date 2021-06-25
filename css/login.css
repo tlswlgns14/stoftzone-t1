@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* header menu*/
+#nav .depth1 > li{ color: #3498db}
+
+
+
+/* login */
+#loginPage .loginTop{
+    background-image: url(../img/showcase-1.jpeg);
+    background-position:center bottom ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+#loginPage .loginTop .inner { position: relative;}
+#loginPage .loginTop .inner h4 {display: inline-block;
+    font-size: 16px; color: #fff;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin: 0;
+}
+#loginPage .loginTop .inner p { font-size: 14px; color: #fff;
+    position:absolute; top:50%; right:0; 
+}
+.loginBox ::placeholder {color:#7a7a7a;}
+.loginBox { background-color:#f5f5f8; padding:50px 200px; margin-top: 100px;}
+.loginBox .loginForm h1{font-size: 25px; color: #060606; font-weight: 500; line-height: 24px; margin-bottom: 15px; 
+}
+.loginBox .loginForm label{ font-size: 14px; color: #666;
+    margin:10px 0; display: block;
+}
+.loginBox .loginForm input { border: 1px solid #ddd;
+    background-color: #fff; padding: 6px 12px;
+    text-indent: 0.5em; width: 100%; height:34px ;
+    margin-bottom: 20px; font-size: 12px;
+}
+.loginBox .loginForm button { font-size:13px; color: #fff;
+        background-color: #3498db; border:1px solid #3498db;
+        padding:6px 12px;
+}
+.loginBox .loginForm button:hover{ background-color: #333;
+}
+.loginBox .loginForm a { color: #333; font-size: 13px;
+}
+.loginBox .loginForm a:hover{ color:#3498db; ;}
