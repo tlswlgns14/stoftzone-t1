@@ -88,7 +88,9 @@
       transition: all 0.3s; margin: 40px auto;
 }
 .info .con2 a:hover{ color: #fff; background-color: #333;}
-
+.info .con3 { transition: all 0.4s;}
+.info .con3:hover { box-shadow: 0 8px 17px 0px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 .info .con3 .cum i{ font-size: 40px;}
 .info .con3 .cum span{ font-size: 20px; color: #a10f2b;
     display: inline-block; margin-left: 30px; font-weight: bold;
