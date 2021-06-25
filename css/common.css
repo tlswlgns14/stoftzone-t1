@@ -1,0 +1,99 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/** font-family: 'Open Sans', sans-serif; **/
+
+.inner { max-width:1140px; margin:0 auto }
+/* @font-face {
+    font-family:'AdobeArabic-Bold';
+    src:local('AdobeArabic-Bold'),
+        url('../font/AdobeArabic-Bold.woff') format('woff'),
+        url('../font/AdobeArabic-Bold.woff2') format('woff2'),
+        url('../font/AdobeArabic-Bold.eot') format('eot')
+} */
+
+body { font-family: 'Open Sans', sans-serif; }
+
+/* 헤더시작 */
+#header .snsmem  { background-color: #333333; 
+    }
+#header .snsmem .sns{ padding:5px 0;float:left; color: #fff
+     }
+#header .snsmem .sns a{ font-size: 18px; text-align: center; display: inline-block; transition:all 0.3s ;}
+#header .snsmem .sns a:hover:first-child{background-color:#337ab7;width:32px; height:32px; line-height:32px; border-radius: 50%; }
+#header .snsmem .sns a:hover:nth-child(2){background-color:#337ab7;width:32px; height:32px; line-height:32px; border-radius: 50%;}
+#header .snsmem .sns a:hover:nth-child(3){background-color:#337ab7;width:32px; height:32px; line-height:32px; border-radius: 50%; }
+#header .snsmem .sns a:hover:nth-child(4){background-color:#a10f2b;width:32px; height:32px; line-height:32px; border-radius: 50%; }
+#header .snsmem .sns a:hover:last-child{background-color:#a10f2b;width:32px; height:32px; line-height:32px; border-radius: 50%; }
+#header .snsmem .member { float: right; }
+#header .snsmem .member li{ padding:0 10px; 
+    float: left;font-size: 12px; color:#eee;
+line-height: 40px;}
+#header .snsmem .member li {
+    border-left:1px solid #444 
+}
+
+#header > .inner { position: relative; padding: 23px 0;}
+#header #nav { position: absolute; top:0; right: 0;}
+#header #nav h1 {padding: 15px; margin:0 0 0 -15px ; font-size: 30px;}
+#header #nav .depth1 > li{ float: left; position: relative;
+    padding: 15px; font-size: 17px; color:#687074; line-height: 60px;
+}
+#header #nav .depth1 > li:hover>a{color: #a10f2b;}
+#header #nav .depth2 { position: absolute; top:100%; right: 0;
+    width: 198px; display: none; padding:8px 20;
+}
+#header #nav .depth1 > li:hover .depth2 { display: block;  position:absolute; top:70%; right:0%; background-color:#fff ;
+width:100%; text-align:center; border:1px solid rgba(255,255,255,0.1)
+; z-index:99;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer 시작 */
+#footer .sita{ 
+    background-color: #111; color: #fff;}
+#footer .sita .last { padding-top: 80px;}
+#footer .sita h3{font-size: 16px; font-weight: 600 ;margin-bottom: 30px
+    ;}
+#footer .sita h3 span { border-bottom: 1px solid #fff}
+#footer .sita p { font-size: 13px; color: #aeaeae; padding-bottom: 10px; 
+}
+#footer .sita .last .llaa { overflow: hidden;}
+#footer .sita .last .llaa > div{ float: left; width:25%; padding: 5px 15px; margin-bottom:30px ;}
+#footer .sita .last .llaa .qaz a {font-size: 20px; display: inline-block; border-radius: 50%; width:40px; height: 40px; text-align: center; line-height: 40px;}
+#footer .sita .last .llaa .qaz a:nth-child(1){ background-color:#3b5998 ;}
+#footer .sita .last .llaa .qaz a:nth-child(2){ background-color:#00acee ;}
+#footer .sita .last .llaa .qaz a:nth-child(3){ background-color:#dd4b39 ;}
+#footer .sita .last .llaa .qaz a:nth-child(4){ background-color:#c8232c ;}
+#footer .sita .last .llaa .qaz a:nth-child(5){ background-color:#0276a8 ;}
+
+#footer .sita .last .llaa .zxc{ font-size: 13px; color: #aeaeae; line-height: 30spx;}
+#footer .sita .last .llaa .zxc li{ margin-bottom: 10px;}
+#footer .sita .last .llaa .zxc a { color: #777; transition: all 0.3s;}
+#footer .sita .last .llaa .zxc a:hover { color:#fff ;}
+#footer .sita .last .llaa .cvb li{ float: left; width: 33.333%; transition: all 0.7s; 
+border:2px solid transparent }
+#footer .sita .last .llaa .cvb li:hover { border:2px solid #a10f2b;}
+
+#footer .sita .last .llaa .ttt{ font-size: 13px; color:#aeaeae;}
+#footer .sita .last .llaa #emcom{font-size: 13px; color: #333;width: 100%; padding: 6px 25px 6px 12px;
+text-align: left; }
+
+
+
+
+
+
+#footer .sita .lastfu {text-align: center
+    ;color:#aeaeae   ; font-size: 12px;font-weight: 400;line-height: 28px
+    ; background-color: #0c0c0c; margin-top: 30px; padding:20px}

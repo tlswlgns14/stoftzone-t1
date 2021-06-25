@@ -1,0 +1,154 @@
+/* main 시작*/
+
+
+/* 슬라이더 */
+.slide1 { background-image: url(../img/2.jpg);}
+.slide2 { background-image: url(../img/1.jpg);} 
+.slide3 { background-image: url(../img/3.jpg);}
+
+#main {
+        display:block; position: relative; margin:0; padding: 0;
+        width: 100%; height: auto; 
+}
+.slideouter { display: block; position: relative; margin: 0; padding: 0; width:100%; height: 600px;  overflow: hidden;
+}
+.slideinner {
+    display: block; position: relative; margin: 0; padding: 0;
+    width: 100%; height: 100%;
+}
+.slide { 
+        display: block; position:relative; margin: 0; padding: 0;
+        width: 100%; height: 100%; 
+}
+.slide .text {
+        display: block; position:absolute; top:50%; left:0;
+        transform: translateY(-50%); text-align: center;
+        margin:0 ; padding: 0; width: 100%; height: auto;
+ }
+ .slide .text h2 { display: block; position:relative ;              margin-bottom:   20px; padding:0 ; width:auto ; height:auto ; font-size:60px ; color:#fff ; font-weight: 700;
+ line-height: 56px; animation:fadeInDown 0.5s 0.3s;
+ }
+ .slide .text p{ display: block; position:relative ; margin-bottom: 20px; padding:0 ;
+    width:auto ; height:auto ; font-size:20px ; color:#fff ; font-weight: 300;
+    line-height: 28px;  animation: fadeInRight 0.5s 0.8s;
+}
+.slide .text > div {
+    display: table; position:relative; margin: 0 auto; padding: 0;
+    width:auto; height:auto; 
+}
+.slide .text > div > a {
+    display: block; position: relative; margin-right:20px; padding: 0;
+    width: 155px; height: 46px; float:left; border: 1px solid #fff;
+    text-align: center; font-size:13px ; line-height: 44px; color: #fff; transition:all 0.3s
+}
+
+.slide .text > div > a:last-child{margin-right:0}
+.slide .text > div > a:first-child:hover{ background-color: #fff; color: #000;}
+.slide .text > div > a.redBox{background-color:#a10f2b; border:1px solid #a10f2b}
+.slide2 .text{text-align:left; padding-left:100px;}
+.slide2 .text>div{margin:0}
+.slide3 .text{text-align:right; padding-right:100px;}
+.slide3 .text>div{margin:0 0 0 auto}
+
+
+
+/* content */
+
+.info { display:block; position:relative;
+     width:1140px; margin:80px auto}
+.info::after { content:""; display:table;
+            clear:both}
+.info > div {display:block; position:relative;
+     float:left; width:32%; height:240px; margin-right:2%; padding:20px 0 0 50px}
+.info>div:last-child { margin-right:0}
+.info>div:nth-child(1) { padding:20px 0 0 0}
+.info>div:nth-child(2) { background-color:#a10f2b}
+.info>div:nth-child(3) { border:1px solid #CCC}
+
+.info li{ float: left; font-size:14px; color: #333; background-color: #f4f4f4;
+    margin-right: 2px; padding:10px 15px; text-align: center;
+}
+.info li:hover { color:#a10f2b; cursor: pointer;}
+
+.info .wrap{ 
+   display: none
+}
+    /*  <!--content2 --> */
+.info .con2 { display: inline-block; 
+    }
+.info .con2 .ou{ margin-left: 30px;}
+.info .con2 .ou i{font-size: 40px; color: #fff;}
+.info .con2 .ou span{ font-size: 20px; color: #fff;
+    display: inline-block; margin-left: 30px; font-weight: bold;
+}      
+.info .con2 p { color: #fff; font-size: 14px; line-height: 28px;}
+.info .con2 a { font-size: 13px; color: #777; background-color: #fff
+      ;font-weight: 600; border-radius: 2px; border:1px solid #ccc
+      ;text-align: center; padding: 6px 12px; cursor: pointer;
+      transition: all 0.3s; margin: 40px auto;
+}
+.info .con2 a:hover{ color: #fff; background-color: #333;}
+
+.info .con3 .cum i{ font-size: 40px;}
+.info .con3 .cum span{ font-size: 20px; color: #a10f2b;
+    display: inline-block; margin-left: 30px; font-weight: bold;
+}
+.info .con3 .cum2 { display: inline-block;
+    font-size: 14px; color: #666; padding-top: 15px;
+    line-height: 28px;
+}
+.adoption .suio .suio2 {border: 1px solid #ccc;}
+.adoption .suio .suio2 i { font-size: 40px; color: #000; padding-right: 20px;}
+.info .con3 .cum2 span{ font-weight: bold;}
+.adoption .suio .suio2 li div { margin: 40px 34px;}
+.adoption .suio .suio2 li { float: left; width: 25%; border-left: 1px solid #ccc;
+}
+.adoption .suio .suio2 h3{ 
+    font-size: 20px; color: #a10f2b; padding-top: 15px;
+}
+.adoption .suio .suio2 span { font-size: 14px; color: #666; font-weight: bold; line-height: 28px;}
+.adoption .suio .suio2 p { font-size: 14px; color: #666; line-height: 28px;}
+.adoption .suio .suio2 li  a{ font-size: 13px; color: #777
+    ;border: 1px solid #a10f2b; padding: 5px 10px; 
+    border-radius: 2px; display: inline-block; margin: 15px 30px 
+    ;transition: all 0.5s;}
+.adoption .suio .suio2 li:hover a { color: #fff; background-color: #a10f2b;}
+
+/* company */
+.company { padding: 150px 0;margin-top:70px;
+    background-color: #f7f9fa;} 
+.company .textbox{ position: relative;}
+.company .textbox h3{position: absolute ; top:2%; left:50%; transform: translate(-50%);font-weight: 700; 
+    font-size: 25px;}
+.company .textbox span{ color: #a10f2b;}
+.company .textbox .texboxex { position: absolute; top:25%; left: 45%;
+    transform: translate(-50%)
+}
+.company .textbox .texboxex i { font-size: 50px; color: #a10f2b;
+padding-right:50px
+}
+.company .textbox .texboxex strong{display: inline-block; line-height: 40px;}
+.company .textbox .texboxex a { background-color: #333;
+    color: #fff; font-size: 13px;padding: 14px 28px 13px 28px;
+border-radius: 2px; font-weight: 600; margin-top: 30px;
+display: inline-block;
+}
+.company .textbox .texboxex a:hover{ color: #fff; background-color: #a10f2b;}
+/* our service */
+
+.ourservice { padding-top: 50px; padding-bottom: 50px;}
+.ourservice .ourte .seli {
+    font-size: 20px; font-weight: 600;margin: 0 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #a10f2b;; display: inline-block;
+}
+.ourservice .ourte .ulc1 i { font-size: 44px; color: #a10f2b;}
+.ourservice .ourte .ulc1 .tempg { font-size: 14px; color:#666;}
+.ourservice .ourte .ulc1 .tempg span { font-size: 15px; color: #000; font-weight: 700;}
+.ourservice .ourte .ulc1 { overflow: hidden;}
+.ourservice .ourte .ulc1 li{ 
+    float: left; width:50%;
+}
+.ourservice .ourte .ulc1 li div {
+    float: left; width:50%; 
+}
